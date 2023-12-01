@@ -1,107 +1,120 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import steyp from "@/public/steyp.png";
+import localclarity from "@/public/localclarity.png";
+import fleetpartners from "@/public/fleetpartners.png";
+import netflixClone from "@/public/netflixClone.png";
+import dashboardapp from "@/public/dashboardapp.png";
 
 export const links = [
-  {
-    name: "Home",
-    hash: "#home",
-  },
-  {
-    name: "About",
-    hash: "#about",
-  },
-  {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
+    {
+        name: "Home",
+        hash: "#home",
+    },
+    {
+        name: "About",
+        hash: "#about",
+    },
+    {
+        name: "Projects",
+        hash: "#projects",
+    },
+    {
+        name: "Skills",
+        hash: "#skills",
+    },
+    {
+        name: "Experience",
+        hash: "#experience",
+    },
+    {
+        name: "Contact",
+        hash: "#contact",
+    },
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+    {
+        title: "IT Support Engineer",
+        location: "ULCCS Ltd",
+        description:
+            "I worked as a IT Support engineer for 2 years in this company, where i repair laptop, desktop, printer, security cameras etc. most of time working with hardware parts of these.",
+        icon: React.createElement(CgWorkAlt),
+        date: "12/2018 - 04/2021",
+    },
+    {
+        title: "Front-End Developer",
+        location: "Talrop",
+        description:
+            "I joined here as an intern for 6 months and worked as a front-end developer for another 6 months. mainly working on ReactJs",
+        icon: React.createElement(FaReact),
+        date: "08/2021 - 08/2022,",
+    },
+    {
+        title: "Front-End Developer",
+        location: "Dbiz Solutions",
+        description:
+            "I'm now a front-end developer. My stack includes React, Next.js, TypeScript, Tailwind, Redux. Right now I am working in Drupal project which is php content management system(CMS) framework.",
+        icon: React.createElement(FaReact),
+        date: "08/2022 - present",
+    },
 ] as const;
 
 export const projectsData = [
-  {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+    {
+        title: "Steyp",
+        description:
+            "I worked as a front-end developer on this startup project for 1 year. Users can learn programming by watching videos and completing assignments and workshops given by the courses.",
+        tags: ["React", "Context", "styled-components"],
+        imageUrl: steyp,
+        link: "https://steyp.com/",
+    },
+    {
+        title: "FleetPartners",
+        description:
+            "Drupal Project for a fleet management company situated in Australia and New-zealand.",
+        tags: ["Drupal", "Site-studio", "PHP", "CSS", "JS"],
+        imageUrl: fleetpartners,
+        link: "https://www.fleetpartners.com.au/",
+    },
+    {
+        title: "Localclarity",
+        description:
+            "Its a project which is collecting all reviews from all platforms and showing it under one page where business teams can reply for the comments",
+        tags: ["React", "Flux", "Scss", "AntD"],
+        imageUrl: localclarity,
+        link: "https://app.localclarity.com/",
+    },
+    {
+        title: "NetFlix-Clone",
+        description: "Its a project that i created for self improving",
+        tags: ["React", "css", "JS"],
+        imageUrl: netflixClone,
+        link: "https://netflix-clone-bay-ten.vercel.app/",
+    },
+    {
+        title: "Dashboard App",
+        description:
+            "Its a next.js project that i created for learning next.js",
+        tags: ["React", "Next.js", "css", "Material UI", "Zustand"],
+        imageUrl: dashboardapp,
+        link: "https://dashboard-alpha-nine-36.vercel.app/",
+    },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "ReactJS",
+    "React Native",
+    "Next.js",
+    "Git",
+    "SCSS",
+    "Drupal",
+    "Material UI",
+    "Tailwind",
+    "Redux",
 ] as const;
