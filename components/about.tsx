@@ -42,32 +42,32 @@ export default function About() {
                 <span className="font-medium">full-time position</span> as a
                 software developer. */}
             </p>
-
             <p className="mb-3">
-                After Graduating Btech in Computer science and engineering I
-                worked as a IT support for 2 years and then realized that I need
-                to learn something new for me and took an opportunity of being a
-                React Intern. from there I learned basics of React and it gave
-                me thrills, Once i Completed my internship then I got placed and
-                there i got my first real world exposure as a front-end
-                developer.
+                After earning my Btech in computer science and engineering, I
+                worked for two years as an IT support before realising that I
+                needed to learn something new. I thus seized the chance to work
+                as a React intern. After learning the fundamentals of React from
+                there, I became excited about the technology. After completing
+                my internship, I was hired and experienced my first real-world
+                front-end development experience.
             </p>
             <p className="mb-3">
-                <span className="italic">My favorite part of programming</span>{" "}
-                is the styling aspect. I <span>love</span> the feeling of
-                finally seeing my website as look like design. My core stack is{" "}
-                <span className="font-medium">HTML,CSS,JS,ReactJS</span>I also
-                know about basics of React Native, Drupal. I am also familiar
-                with TypeScript.
+                The <span className="italic">stylistic element</span> of
+                programming is my favourite part of the process. I{" "}
+                <span>adore</span> the sensation of finally seeing my website
+                come together in terms of design.
+                <span className="font-medium">HTML,CSS,JS,ReactJS</span> make up
+                my core stack. I am also familiar with the fundamentals of
+                Drupal and React Native.Additionally, I am proficient with
+                TypeScript.
             </p>
-
             <p>
-                <span className="italic">When I'm not coding</span>, I enjoy
-                playing football, watching movies and anime, and playing with my
-                dog. I also enjoy{" "}
-                <span className="font-medium">learning new things</span>. I am
-                currently learning about{" "}
-                <span className="font-medium">Next.js</span>.
+                <span className="italic">Aside from computing</span>, I like to
+                play football, watch anime, and go to the movies. I also take
+                pleasure in
+                <span className="font-medium"> picking up new skills</span>. I
+                am presently acquiring knowledge of
+                <span className="font-medium"> Next.js</span>.
             </p>
         </motion.section>
     );
