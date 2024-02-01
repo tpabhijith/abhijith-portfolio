@@ -36,12 +36,12 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "IT Support Engineer",
-        location: "ULCCS Ltd",
+        title: "Front-End Developer",
+        location: "Dbiz Solutions",
         description:
-            "I worked as a IT Support engineer for 2 years in this company, where i repair laptop, desktop, printer, security cameras etc. most of time working with hardware parts of these.",
-        icon: React.createElement(CgWorkAlt),
-        date: "12/2018 - 04/2021",
+            "I'm now a front-end developer. My stack includes React, Next.js, TypeScript, Tailwind, Redux. Right now I am working in Drupal project which is php content management system(CMS) framework.",
+        icon: React.createElement(FaReact),
+        date: "08/2022 - present",
     },
     {
         title: "Front-End Developer",
@@ -52,12 +52,12 @@ export const experiencesData = [
         date: "08/2021 - 08/2022,",
     },
     {
-        title: "Front-End Developer",
-        location: "Dbiz Solutions",
+        title: "IT Support Engineer",
+        location: "ULCCS Ltd",
         description:
-            "I'm now a front-end developer. My stack includes React, Next.js, TypeScript, Tailwind, Redux. Right now I am working in Drupal project which is php content management system(CMS) framework.",
-        icon: React.createElement(FaReact),
-        date: "08/2022 - present",
+            "I worked as a IT Support engineer for 2 years in this company, where i repair laptop, desktop, printer, security cameras etc. most of time working with hardware parts of these.",
+        icon: React.createElement(CgWorkAlt),
+        date: "12/2018 - 04/2021",
     },
 ] as const;
 
