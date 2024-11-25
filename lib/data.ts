@@ -41,7 +41,7 @@ export const experiencesData = [
         description:
             "I'm now a front-end developer. My stack includes React, Next.js, TypeScript, Tailwind, Redux. Right now I am working in Drupal project which is php content management system(CMS) framework.",
         icon: React.createElement(FaReact),
-        date: "08/2022 - present",
+        date: "08/2022 - 10/2024",
     },
     {
         title: "Front-End Developer",
